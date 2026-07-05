@@ -159,7 +159,7 @@ export const projects = [
       github: 'https://github.com/anchal-shukla123/Vyom-mobile-app/blob/main/README.md',
       demo: null,
     },
-    isFlagship: true,
+    isFlagship: false,
   },
   {
     id: 'bgi-launchpad',
