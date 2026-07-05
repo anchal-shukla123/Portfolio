@@ -1,4 +1,4 @@
-﻿import vyomImage from '../assets/anchal/projects/vyom.jpeg';
+﻿import vyomImage from '../assets/anchal/projects/vyom.png';
 import bgiLaunchpadImage from '../assets/anchal/projects/bgi-launchpad.png';
 import lexAiImage from '../assets/anchal/projects/lexai.png';
 import compilerImage from '../assets/anchal/projects/compiler.png';
@@ -50,7 +50,7 @@ export const heroContent = {
 export const aboutContent = {
   heading: 'Hello!',
   bio: 'Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Anchal Shukla</span>, a final-year Computer Science Engineering student and full stack developer who enjoys building secure, responsive, and production-ready digital products.',
-  techStack: ['React', 'Spring Boot', 'PostgreSQL'],
+  techStack: ['React', 'Spring Boot', 'PostgreSQL', 'Java', 'Node.js', 'Express', 'MongoDB', 'SQL', 'REST APIs'],
 };
 
 export const skillsContent = {
@@ -126,13 +126,10 @@ export const technicalSkills = {
       title: 'Tools & Platforms',
       skills: [
         { name: 'Git & GitHub', level: 92 },
-        { name: 'Docker', level: 82 },
         { name: 'Vercel', level: 90 },
         { name: 'Render', level: 86 },
-        { name: 'Railway', level: 82 },
         { name: 'Supabase', level: 84 },
         { name: 'Postman', level: 88 },
-        { name: 'Neon', level: 80 },
       ],
     },
     {
@@ -331,4 +328,6 @@ export const emailjsConfig = {
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'YOUR_EMAILJS_TEMPLATE_ID',
   publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'YOUR_EMAILJS_PUBLIC_KEY',
 };
+
+
 

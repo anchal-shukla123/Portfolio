@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         isOpen
-          ? 'bg-[#ff2a2a] py-4'
+          ? 'bg-[#A53860] py-4'
           : isScrolled
             ? 'bg-transparent py-4'
             : 'bg-transparent py-6'
@@ -28,8 +28,8 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="#home" className="text-white text-2xl font-black tracking-tight whitespace-nowrap">
-            {personalInfo.firstName}<span className="text-red-500">.</span>
+          <a href="#home" className="text-[#F9DBBD] text-2xl font-black tracking-tight whitespace-nowrap">
+            {personalInfo.firstName}<span className="text-[#DA627D]">.</span>
           </a>
         </div>
 
@@ -38,10 +38,10 @@ const Navbar = () => {
             <a
               key={link}
               href={`#${link.toLowerCase()}`}
-              className="text-white/80 hover:text-white font-medium relative group transition-colors duration-300 text-sm xl:text-base"
+              className="text-[#F9DBBD]/80 hover:text-[#F9DBBD] font-medium relative group transition-colors duration-300 text-sm xl:text-base"
             >
               {link}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#DA627D] transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <a
             href={hireMeMailto}
-            className="px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-white font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md"
+            className="px-6 py-2.5 rounded-full bg-[#F9DBBD]/10 border border-[#F9DBBD]/20 text-[#F9DBBD] font-semibold hover:bg-[#F9DBBD]/20 hover:shadow-[0_0_15px_rgba(249,219,189,0.22)] transition-all duration-300 backdrop-blur-md"
           >
             Hire Me
           </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
         <div className="lg:hidden flex items-center">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-white focus:outline-none p-2"
+            className="text-[#F9DBBD] focus:outline-none p-2"
             aria-label="Toggle navigation menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -74,7 +74,7 @@ const Navbar = () => {
 
       <div
         className={`lg:hidden absolute top-full left-0 w-full transition-all duration-300 overflow-hidden ${
-          isOpen ? 'max-h-[520px] py-4 opacity-100 bg-[#ff2a2a] shadow-2xl' : 'max-h-0 opacity-0 bg-transparent'
+          isOpen ? 'max-h-[520px] py-4 opacity-100 bg-[#A53860] shadow-2xl' : 'max-h-0 opacity-0 bg-transparent'
         }`}
       >
         <div className="flex flex-col px-6 space-y-4">
@@ -83,7 +83,7 @@ const Navbar = () => {
               key={link}
               href={`#${link.toLowerCase()}`}
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-black font-bold text-lg border-b border-white/20 pb-2 transition-colors"
+              className="text-[#F9DBBD] hover:text-[#450920] font-bold text-lg border-b border-[#F9DBBD]/20 pb-2 transition-colors"
             >
               {link}
             </a>
@@ -92,7 +92,7 @@ const Navbar = () => {
             <a
               href={hireMeMailto}
               onClick={() => setIsOpen(false)}
-              className="inline-block px-6 py-3 rounded-full bg-white text-[#ff2a2a] font-black hover:bg-black hover:text-white transition-colors w-full text-center shadow-lg"
+              className="inline-block px-6 py-3 rounded-full bg-[#F9DBBD] text-[#A53860] font-black hover:bg-[#450920] hover:text-[#F9DBBD] transition-colors w-full text-center shadow-lg"
             >
               Hire Me
             </a>
@@ -104,4 +104,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
 
