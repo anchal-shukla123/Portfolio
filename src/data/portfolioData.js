@@ -9,6 +9,9 @@ import sqlCertificate from '../assets/anchal/certificates/sql-basic.jpeg';
 import buildverseRunnerUpCertificate from '../assets/anchal/certificates/buildverse-runner-up.jpeg';
 import bgiHackathonCertificate from '../assets/anchal/certificates/bgi-hackathon-runner-up.jpeg';
 import buildverseSaasCertificate from '../assets/anchal/certificates/buildverse-saas-enterprise.jpeg';
+import gfgCertificate from '../assets/anchal/certificates/gfg.jpg';
+import nptelCertificate from '../assets/anchal/certificates/nptel.jpg';
+import samsungCertificate from '../assets/anchal/certificates/samsung.jpg';
 
 export const personalInfo = {
   name: 'Anchal Shukla',
@@ -281,25 +284,40 @@ export const certificates = {
       image: buildverseRunnerUpCertificate,
     },
     {
+      name: 'NPTEL Data Structures and Algorithms - Silver Badge',
+      issuer: 'NPTEL',
+      image: nptelCertificate,
+    },
+    {
       name: 'BuildVerse SaaS & Enterprise Domain Winner',
       issuer: 'BuildVerse Hackathon 2026',
       image: buildverseSaasCertificate,
+    },
+    {
+      name: 'GFG 160 Days Challenge Completion',
+      issuer: 'GeeksforGeeks',
+      image: gfgCertificate,
     },
     {
       name: 'SQL Basic',
       issuer: 'HackerRank',
       image: sqlCertificate,
     },
-    {
-      name: 'Mastering JavaScript Fundamentals',
-      issuer: 'Geekster',
-      image: javascriptCertificate,
-    },
-    {
-      name: 'Idea Hackathon Codictive 3.0',
-      issuer: 'BIST, IEEE, Sheryians Coding School',
-      image: ideaHackathonCertificate,
-    },
+    // {
+    //   name: 'Mastering JavaScript Fundamentals',
+    //   issuer: 'Geekster',
+    //   image: javascriptCertificate,
+    // },
+    // {
+    //   name: 'Idea Hackathon Codictive 3.0',
+    //   issuer: 'BIST, IEEE, Sheryians Coding School',
+    //   image: ideaHackathonCertificate,
+    // },
+    // {
+    //   name: 'Samsung Galaxy AI Treasure Hunt 2026',
+    //   issuer: 'Unstop',
+    //   image: samsungCertificate,
+    // },
   ],
   viewAllUrl: '/Anchal_Shukla_Resume.pdf',
 };
