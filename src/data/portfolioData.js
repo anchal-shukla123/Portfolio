@@ -191,8 +191,8 @@ export const projects = [
     image: lexAiImage,
     imageAlt: 'LexAI contract review system screenshot',
     links: {
-      github: null,
-      demo: null,
+      github: 'https://github.com/anchal-shukla123/LexAI',
+      demo: 'https://lex-ai-frontend-opal.vercel.app/',
     },
     isFlagship: false,
   },
@@ -207,8 +207,8 @@ export const projects = [
     image: compilerImage,
     imageAlt: 'CodeRunner compiler landing screen screenshot',
     links: {
-      github: null,
-      demo: null,
+      github: 'https://github.com/anchal-shukla123/Online-Repository',
+      demo: 'https://online-compiler-gold-gamma.vercel.app/',
     },
     isFlagship: false,
   },
